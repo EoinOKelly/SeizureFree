@@ -1,11 +1,11 @@
 {
-  "name": "Seizure-Free — early support",
+  "name": "Seizure-Free",
   "short_name": "Seizure-Free",
-  "description": "Calm breathing, grounding, and orientation for early warning feelings. Not medical advice.",
+  "description": "Breathing, grounding, and safety info for stressful moments. Not medical advice.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#2a3236",
-  "theme_color": "#3a444c",
+  "background_color": "#14110e",
+  "theme_color": "#1a1612",
   "icons": [
     {
       "src": "/favicon.svg",

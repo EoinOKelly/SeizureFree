@@ -4,7 +4,7 @@ const STEPS: { sense: string; count: number; hint: string }[] = [
   {
     sense: "see",
     count: 5,
-    hint: "Five things you see—any small detail counts.",
+    hint: "Five things you see. Any small detail counts.",
   },
   {
     sense: "touch / feel",
@@ -19,7 +19,7 @@ const STEPS: { sense: string; count: number; hint: string }[] = [
   {
     sense: "smell",
     count: 2,
-    hint: "Two smells, even faint—or two you’d notice up close.",
+    hint: "Two smells, even faint, or two you would notice up close.",
   },
   {
     sense: "taste",
@@ -65,7 +65,7 @@ export function mountGrounding(
     const s = STEPS[stepIndex]!;
     wrap.innerHTML = `
       <h1>Grounding</h1>
-      <p class="lead">5-4-3-2-1. Stay with the present—no wrong answers.</p>
+      <p class="lead">5-4-3-2-1: one sense at a time. Any answer is fine.</p>
       <div class="card">
         <div class="grounding-step-num">Step ${stepIndex + 1} of ${STEPS.length} · ${s.count} · ${s.sense}</div>
         <p class="ground-step-text">${s.hint}</p>

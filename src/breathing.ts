@@ -39,8 +39,8 @@ export function mountBreathing(
   el.className = "breathing-root";
 
   el.innerHTML = `
-    <h1>Slow breathing</h1>
-    <p class="lead">In through your nose if you can. Let the out-breath be slightly longer.</p>
+    <h1>Breathing</h1>
+    <p class="lead">If it feels okay, breathe in through your nose. Let the out-breath last a little longer than the in-breath.</p>
     <div class="breath-stage">
       <div class="breath-orbit ${reduced ? "breath-orbit--static" : ""}" data-phase="exhale" role="img" aria-label="Breathing pace"></div>
       <div class="breath-label" id="breath-phase" aria-live="polite">Inhale</div>
